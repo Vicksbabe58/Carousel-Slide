@@ -1,0 +1,13 @@
+body {
+  font-family: "Nanum+Gothic", "Mukta";
+}
+
+.carousel-item {
+  text-align: center;
+}
+.icon {
+  width: 4rem;
+}
+.next-icon {
+  font-weight: 700;
+}

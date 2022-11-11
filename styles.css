@@ -17,8 +17,14 @@ body {
 .next-icon {
   font-weight: 700;
 }
+.carousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 50vh;
+  overflow: hidden;
+}
 
-.carousel .carousel-item {
+/*.carousel .carousel-item {
   height: 100vh;
 }
 
@@ -29,5 +35,5 @@ body {
     left: 0;
     
 }
-
+*/
 

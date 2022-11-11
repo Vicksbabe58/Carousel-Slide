@@ -8,8 +8,6 @@ h2 {
 p {
   font-size: 25px;
   color: black;
-  background-color: blueviolet;
-  border-radius: 20px;
 }
 .carousel-item {
   text-align: center;
@@ -18,12 +16,22 @@ p {
 .icon {
   width: 4rem;
 }
-.next-icon {
-  font-weight: 700;
+.carousel .next-icon {
+  visibility: hidden;
+  width: 15vw;
+  height: 15vh;
+}
+.carousel:hover .next-icon {
+  visibility: visible;
 }
 .carousel .carousel-item img {
   object-fit: cover;
   object-position: center;
   max-height: 100vh;
   overflow: hidden;
+}
+.carousel-caption {
+  margin-bottom: 14rem;
+  border-radius: 20px;
+  background-color: hsl(271, 56%, 53%, 0.3);
 }

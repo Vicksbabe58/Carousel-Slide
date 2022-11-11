@@ -11,57 +11,142 @@
       href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300&family=Nanum+Gothic:wght@700;800&family=Pacifico&display=swap"
       rel="stylesheet"
     />
-    
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    
+
     <link rel="stylesheet" href="styles.css" />
     <title>Carasol-Slide</title>
   </head>
   <body>
     <div
       id="carouselExampleFade"
-      class="carousel  slide carousel-fade carousel-dark "
+      class="carousel slide carousel-fade carousel-dark"
       data-bs-ride="carousel"
     >
       <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="3"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 4"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="4"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 5"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleFade"
+          data-bs-slide-to="5"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 6"
+        ></button>
+      </div>
 
-
-                    <!-- The slideshow/carousel -->                                                                  
+      <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active" data-bs-interval="10000">
           <img
-            src="./Pictures/Rectangle-11.jpg"
+            src="./Pictures/Abacha.jpg"
             class="d-block min-vh-100 w-100"
             alt="..."
           />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Abacha</p>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000" >
+        <div class="carousel-item" data-bs-interval="3000">
           <img
-            src="./Pictures/Rectangle-13.jpg"
+            src="./Pictures/Assorted meat.jpg"
             class="d-block min-vh-100 w-100"
             alt="..."
           />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Assorted Meat</p>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="3000" >
+        <div class="carousel-item" data-bs-interval="3000">
           <img
-            src="./Pictures/Rectangle-9.jpg"
+            src="./Pictures/okrosoup-1.jpg"
             class="d-block min-vh-100 w-100"
             alt="..."
           />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Okro Soup</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Pictures/Amala and ewedu.jpg"
+            class="d-block min-vh-100 w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Amala and Ewedu</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Pictures/Ewa-Agoyin.jpg"
+            class="d-block min-vh-100 w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Ewa Agoyin</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="./Pictures/Jollof_Rice_with_Stew_1.jpg"
+            class="d-block min-vh-100 w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-md-block">
+            <h3>Local Dishes</h3>
+            <p>Jollof Rice</p>
+          </div>
         </div>
       </div>
-                     
-                     <!-- Left and right controls/icons -->
+
+      <!-- Left and right controls/icons -->
       <button
         class="carousel-control-prev icon"
         type="button"
@@ -87,6 +172,10 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>                    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
